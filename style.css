@@ -1,0 +1,101 @@
+*{
+    align-content: center;
+}
+body{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+marquee{
+    color: green;
+    font-size: 40px;
+}
+img{
+    height: 200px;
+    width: 300px;
+    padding: auto;
+}
+nav{
+    background-color: rgb(80, 224, 80);
+    padding: 10px 0;
+    width: 100%;
+    padding: 4px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style-type: none;
+    display: block;
+    padding: 0 5%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:'Ubuntu', 'Segoe UI', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: black;
+    border-radius: 4px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 12px;
+}
+.card{
+    background-color: grey;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease box-shadow 0.3s ease;
+    padding: 24px;
+    text-align: center;
+}
+.card :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.card p{
+    font-size: 16px;
+    color: #333;
+    margin-top: 12px;
+}
+.card h2{
+    font-size: 24px;
+    color: greenyellow;
+    margin-bottom: 12px;
+}
